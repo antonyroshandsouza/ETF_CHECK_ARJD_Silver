@@ -3,13 +3,18 @@
 <head>
   <title>Silver ETF Decision Tool</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    .action { font-size: 1.5em; font-weight: bold; }
+    .hold { color: green; }
+    .sell { color: red; }
+    pre { background: #f4f4f4; padding: 10px; }
+  </style>
 </head>
 <body>
 
-<h2>Silver ETF Checker</h2>
-
+<h2>Silver ETF Decision Tool</h2>
 <button onclick="runCheck()">Check Now</button>
-
 <pre id="output">Waiting...</pre>
 
 <script src="app.js"></script>
